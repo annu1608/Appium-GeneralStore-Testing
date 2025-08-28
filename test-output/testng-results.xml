@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T06:50:42 IST" name="Suite" finished-at="2025-08-25T06:54:32 IST" duration-ms="229781">
+    <groups>
+      <group name="Functional">
+        <method signature="FormPage_Validation.FillForm_ErrorValidation(java.util.HashMap)[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" name="FillForm_ErrorValidation" class="Store.FormPage_Validation"/>
+        <method signature="CartPage_Validation.CartPAgeTest(java.util.HashMap)[pri:0, instance:Store.CartPage_Validation@7a3793c7]" name="CartPAgeTest" class="Store.CartPage_Validation"/>
+      </group> <!-- Functional -->
+      <group name="Integration">
+        <method signature="HybridContextSwitch_Test.HybridContextSwitchTest(java.util.HashMap)[pri:0, instance:Store.HybridContextSwitch_Test@6692b6c6]" name="HybridContextSwitchTest" class="Store.HybridContextSwitch_Test"/>
+      </group> <!-- Integration -->
+      <group name="Regression">
+        <method signature="ItemSearchByName_Validation.ItemSearchByNameTest(java.util.HashMap)[pri:0, instance:Store.ItemSearchByName_Validation@4e928fbf]" name="ItemSearchByNameTest" class="Store.ItemSearchByName_Validation"/>
+        <method signature="SumOfPrice_Validation.SumOfPriceTest(java.util.HashMap)[pri:0, instance:Store.SumOfPrice_Validation@295cf707]" name="SumOfPriceTest" class="Store.SumOfPrice_Validation"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="eCommerce_Android.eCommerce_AndroidTest(java.util.HashMap)[pri:0, instance:Store.eCommerce_Android@70e38ce1]" name="eCommerce_AndroidTest" class="Store.eCommerce_Android"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-25T06:50:42 IST" name="End To End FrameWork Test" finished-at="2025-08-25T06:51:19 IST" duration-ms="37261">
+      <class name="Store.eCommerce_Android">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.eCommerce_Android@70e38ce1]" started-at="2025-08-25T06:50:42 IST" name="configureAppium" finished-at="2025-08-25T06:50:56 IST" duration-ms="13710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.eCommerce_Android@70e38ce1]" started-at="2025-08-25T06:50:56 IST" name="preSetUp" finished-at="2025-08-25T06:50:56 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="eCommerce_AndroidTest(java.util.HashMap)[pri:0, instance:Store.eCommerce_Android@70e38ce1]" started-at="2025-08-25T06:50:56 IST" name="eCommerce_AndroidTest" data-provider="getData" finished-at="2025-08-25T06:51:18 IST" duration-ms="22472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCommerce_AndroidTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.eCommerce_Android@70e38ce1]" started-at="2025-08-25T06:51:19 IST" name="tearDown" finished-at="2025-08-25T06:51:19 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.eCommerce_Android -->
+    </test> <!-- End To End FrameWork Test -->
+    <test started-at="2025-08-25T06:51:20 IST" name="FormPage validation" finished-at="2025-08-25T06:52:02 IST" duration-ms="42596">
+      <class name="Store.FormPage_Validation">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:51:20 IST" name="configureAppium" finished-at="2025-08-25T06:51:31 IST" duration-ms="11535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:51:31 IST" name="preSetUp" finished-at="2025-08-25T06:51:31 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="FillForm_ErrorValidation(java.util.HashMap)[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:51:31 IST" name="FillForm_ErrorValidation" data-provider="getData" finished-at="2025-08-25T06:51:42 IST" duration-ms="10552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:51:42 IST" name="preSetUp" finished-at="2025-08-25T06:51:42 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="FillForm_PositiveFlow(java.util.HashMap)[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:51:42 IST" name="FillForm_PositiveFlow" data-provider="getData" finished-at="2025-08-25T06:52:02 IST" duration-ms="19665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.FormPage_Validation@6f1c29b7]" started-at="2025-08-25T06:52:02 IST" name="tearDown" finished-at="2025-08-25T06:52:02 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.FormPage_Validation -->
+    </test> <!-- FormPage validation -->
+    <test started-at="2025-08-25T06:52:02 IST" name="ItemSearchByName validation" finished-at="2025-08-25T06:52:39 IST" duration-ms="37181">
+      <class name="Store.ItemSearchByName_Validation">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.ItemSearchByName_Validation@4e928fbf]" started-at="2025-08-25T06:52:02 IST" name="configureAppium" finished-at="2025-08-25T06:52:15 IST" duration-ms="12369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.ItemSearchByName_Validation@4e928fbf]" started-at="2025-08-25T06:52:15 IST" name="preSetUp" finished-at="2025-08-25T06:52:15 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="ItemSearchByNameTest(java.util.HashMap)[pri:0, instance:Store.ItemSearchByName_Validation@4e928fbf]" started-at="2025-08-25T06:52:15 IST" name="ItemSearchByNameTest" data-provider="getData" finished-at="2025-08-25T06:52:39 IST" duration-ms="24103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSearchByNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.ItemSearchByName_Validation@4e928fbf]" started-at="2025-08-25T06:52:39 IST" name="tearDown" finished-at="2025-08-25T06:52:39 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.ItemSearchByName_Validation -->
+    </test> <!-- ItemSearchByName validation -->
+    <test started-at="2025-08-25T06:52:39 IST" name="SumOfPrice validation" finished-at="2025-08-25T06:53:10 IST" duration-ms="30891">
+      <class name="Store.SumOfPrice_Validation">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.SumOfPrice_Validation@295cf707]" started-at="2025-08-25T06:52:39 IST" name="configureAppium" finished-at="2025-08-25T06:52:51 IST" duration-ms="11386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.SumOfPrice_Validation@295cf707]" started-at="2025-08-25T06:52:51 IST" name="preSetUp" finished-at="2025-08-25T06:52:51 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="SumOfPriceTest(java.util.HashMap)[pri:0, instance:Store.SumOfPrice_Validation@295cf707]" started-at="2025-08-25T06:52:51 IST" name="SumOfPriceTest" data-provider="getData" finished-at="2025-08-25T06:53:10 IST" duration-ms="18834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SumOfPriceTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.SumOfPrice_Validation@295cf707]" started-at="2025-08-25T06:53:10 IST" name="tearDown" finished-at="2025-08-25T06:53:10 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.SumOfPrice_Validation -->
+    </test> <!-- SumOfPrice validation -->
+    <test started-at="2025-08-25T06:53:10 IST" name="CartPage validation" finished-at="2025-08-25T06:53:35 IST" duration-ms="25049">
+      <class name="Store.CartPage_Validation">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.CartPage_Validation@7a3793c7]" started-at="2025-08-25T06:53:10 IST" name="configureAppium" finished-at="2025-08-25T06:53:23 IST" duration-ms="12272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.CartPage_Validation@7a3793c7]" started-at="2025-08-25T06:53:23 IST" name="preSetUp" finished-at="2025-08-25T06:53:23 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="CartPAgeTest(java.util.HashMap)[pri:0, instance:Store.CartPage_Validation@7a3793c7]" started-at="2025-08-25T06:53:23 IST" name="CartPAgeTest" data-provider="getData" finished-at="2025-08-25T06:53:35 IST" duration-ms="12072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPAgeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.CartPage_Validation@7a3793c7]" started-at="2025-08-25T06:53:35 IST" name="tearDown" finished-at="2025-08-25T06:53:35 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.CartPage_Validation -->
+    </test> <!-- CartPage validation -->
+    <test started-at="2025-08-25T06:53:35 IST" name="HybridContextSwitch Validation" finished-at="2025-08-25T06:54:32 IST" duration-ms="56235">
+      <class name="Store.HybridContextSwitch_Test">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:Store.HybridContextSwitch_Test@6692b6c6]" started-at="2025-08-25T06:53:35 IST" name="configureAppium" finished-at="2025-08-25T06:53:47 IST" duration-ms="11537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetUp()[pri:0, instance:Store.HybridContextSwitch_Test@6692b6c6]" started-at="2025-08-25T06:53:47 IST" name="preSetUp" finished-at="2025-08-25T06:53:47 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method signature="HybridContextSwitchTest(java.util.HashMap)[pri:0, instance:Store.HybridContextSwitch_Test@6692b6c6]" started-at="2025-08-25T06:53:47 IST" name="HybridContextSwitchTest" data-provider="getData" finished-at="2025-08-25T06:54:31 IST" duration-ms="43578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=annu, country=Aruba}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HybridContextSwitchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Store.HybridContextSwitch_Test@6692b6c6]" started-at="2025-08-25T06:54:31 IST" name="tearDown" finished-at="2025-08-25T06:54:32 IST" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Store.HybridContextSwitch_Test -->
+    </test> <!-- HybridContextSwitch Validation -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        
+
+<listeners>
+    <listener class-name="TestUtils.Listeners"/>
+</listeners>
+  
+  <test thread-count="5" name="ItemSearchByName validation">
+    <classes>
+      <class name="Store.ItemSearchByName_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="SumOfPrice validation">
+    <classes>
+      <class name="Store.SumOfPrice_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  
+   
+  
+</suite> <!-- Suite -->

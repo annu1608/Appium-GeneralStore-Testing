@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="CartPage validation(failed)">
+    <groups>
+      <run>
+        <include name="Functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Store.CartPage_Validation">
+        <methods>
+          <include name="CartPAgeTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="preSetUp"/>
+          <include name="configureAppium"/>
+        </methods>
+      </class> <!-- Store.CartPage_Validation -->
+    </classes>
+  </test> <!-- CartPage validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

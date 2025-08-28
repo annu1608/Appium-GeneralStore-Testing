@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+      
+<listeners>
+    <listener class-name="TestUtils.Listeners"/>
+</listeners>
+  
+   <test thread-count="5" name="End To End FrameWork Test">
+    <classes>
+     <class name="Store.eCommerce_Android"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="FormPage validation">
+    <classes>
+      <class name="Store.FormPage_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="ItemSearchByName validation">
+    <classes>
+      <class name="Store.ItemSearchByName_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="SumOfPrice validation">
+    <classes>
+      <class name="Store.SumOfPrice_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="CartPage validation">
+    <classes>
+      <class name="Store.CartPage_Validation"/>
+   </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="HybridContextSwitch Validation">
+    <classes>
+      <class name="Store.HybridContextSwitch_Test"/>
+   </classes>
+  </test> <!-- Test -->
+
+   
+  
+</suite> <!-- Suite -->
