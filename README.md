@@ -31,3 +31,11 @@ It demonstrates a **hybrid automation framework** with **Page Object Model (POM)
 
 ---
 
+
+📊 Reports
+
+Extent Reports – Implemented in framework for detailed HTML report with logs, steps, and screenshots ✅
+
+TestNG Reports – Auto-generated default reports (HTML + XML) after each test run ✅
+
+JSON Test Data – Implemented in framework for data-driven testing (user details, products, etc.) ✅
