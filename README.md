@@ -8,11 +8,13 @@ It demonstrates a **hybrid automation framework** with **Page Object Model (POM)
 ##  Features
 - Mobile App automation using **Appium**
 - **Page Object Model (POM)** design pattern
+- Data-driven testing using JSON files
 - End-to-end test cases:
   - Form filling
   - Product selection
   - Cart validation
   - Checkout process
+    
 - Reusable utilities for mobile gestures (scroll, swipe, long press, scrollToText, StartActivity)
 - Test execution with **Maven + TestNG**
 - Extent Report integration (for detailed reporting)
@@ -23,7 +25,8 @@ It demonstrates a **hybrid automation framework** with **Page Object Model (POM)
 - **Programming Language:** Java  
 - **Frameworks:** TestNG, Maven  
 - **Automation Tool:** Appium  
-- **Build Tool:** Maven  
+- **Build Tool:** Maven
+- **Data driven:** JSON file 
 - **Reports:** Extent Reports, TestNG Reports  
 
 ---
